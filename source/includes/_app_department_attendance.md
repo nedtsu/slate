@@ -78,4 +78,4 @@ departmentId | Guid? | 查詢單位ID, 空值為查詢 直屬人員
 
 Date | Description
 ---- | -----------
-
+2017-06-18 | init
