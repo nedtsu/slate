@@ -63,7 +63,7 @@ attendanceDateEnd | Date | 查詢結束日期
 departmentId | Guid? | 查詢單位ID
 employeeId | Guid? | 查詢人員ID
 
-### Response
+### Response 請參考 Json
 Key | Type | Description
 --- | ---- | -----------
 

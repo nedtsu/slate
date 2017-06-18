@@ -93,6 +93,21 @@ This is warning
 This is success
 </aside>
 
+## Images
+
+行內式
+
+![GitHub](https://avatars2.githubusercontent.com/u/3265208?v=3&s=100 "GitHub,Social Coding")
+
+參考式
+
+![GitHub][github]
+
+[github]: https://avatars2.githubusercontent.com/u/3265208?v=3&s=100 "GitHub,Social Coding"
+
+
+<img src="https://avatars2.githubusercontent.com/u/3265208?v=3&s=100" alt="GitHub" title="GitHub,Social Coding" width="50" height="50" />
+
 ## API Template
 
 ```javascript
@@ -139,3 +154,4 @@ available | true | If set to false, the result will include kittens that have al
 <aside class="success">
 Remember — a happy kitten is an authenticated kitten!
 </aside>
+

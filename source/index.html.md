@@ -24,6 +24,18 @@ search: true
 
 Welcome to the Attendance API! 
 
+目前文件包含 內容：
+
+1. 打卡設定
+2. 打卡記錄
+3. 人員出勤
+4. 打卡記錄 (APP)
+5. 人員出勤 (APP)
+
+其他部分為 slate 預設與測試請忽略
+
+Authentication 請參考目前作法
+
 This example API documentation page was created with [Slate](https://github.com/tripit/slate). Feel free to edit it and use it as a base for your own API's documentation.
 
 # Authentication
@@ -56,7 +68,7 @@ let api = kittn.authorize('meowmeowmeow');
 
 > Make sure to replace `meowmeowmeow` with your API key.
 
-Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://example.com/developers).
+Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://example.com/developers).
 
 Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
 
