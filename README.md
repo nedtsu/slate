@@ -47,6 +47,8 @@ You're going to need:
 3. `cd slate`
 4. Initialize and start Slate. You can either do this locally, or with Vagrant:
 
+> For windows you're going to need: install rubby, bundler
+
 ```shell
 # either run this to run locally
 bundle install
