@@ -110,6 +110,15 @@ employeeId | Guid? | 查詢人員ID
 ### Response
 Key | Type | Description
 --- | ---- | -----------
+EmployeeName | String | 人員姓名
+AttendanceDate | Date | 日期
+IsHoliday | Boolean | 是否為假日
+WorkList | Array | 打卡紀錄
+RestList | Array | 休息打卡記錄
+OutOfOfficeList | Array | 外出打卡記錄
+ExceptionList | Array | 異常紀錄
+BiilingStatus | Int | 0→未結算<br>1→已結算<br>2→已拋轉<br>3→結算中<br>4→離職結算
+
 
 ### Changelog
 

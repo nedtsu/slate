@@ -71,7 +71,7 @@ PT 1.6 更新<br>
 
 Parameter | Type | Description
 --------- | ---- | -----------
-Date | Date | 查詢日期
+date | Date | 查詢日期
 departmentId | Guid? | 查詢單位ID, 空值為查詢 直屬人員
 
 ### Changelog
