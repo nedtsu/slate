@@ -230,6 +230,20 @@
 
 <p>Welcome to the Attendance API! </p>
 
+<p>目前文件包含 內容：</p>
+
+<ol>
+<li>打卡設定</li>
+<li>打卡記錄</li>
+<li>人員出勤</li>
+<li>打卡記錄 (APP)</li>
+<li>人員出勤 (APP)</li>
+</ol>
+
+<p>其他部分為 slate 預設與測試請忽略</p>
+
+<p>Authentication 請參考目前作法</p>
+
 <p>This example API documentation page was created with <a href="https://github.com/tripit/slate">Slate</a>. Feel free to edit it and use it as a base for your own API&rsquo;s documentation.</p>
 
 <h1 id="authentication">Authentication</h1>
@@ -825,7 +839,7 @@ Meta 增加 BillingDateRanges, 判斷 “已結算是否允許查詢已結算打
 </tr>
 </tbody></table>
 
-<h3 id="response">Response</h3>
+<h3 id="response-json">Response 請參考 Json</h3>
 
 <table><thead>
 <tr>
@@ -1292,6 +1306,46 @@ PT 1.6 更新<br>
 <th>Description</th>
 </tr>
 </thead><tbody>
+<tr>
+<td>EmployeeName</td>
+<td>String</td>
+<td>人員姓名</td>
+</tr>
+<tr>
+<td>AttendanceDate</td>
+<td>Date</td>
+<td>日期</td>
+</tr>
+<tr>
+<td>IsHoliday</td>
+<td>Boolean</td>
+<td>是否為假日</td>
+</tr>
+<tr>
+<td>WorkList </td>
+<td>Array</td>
+<td>打卡紀錄</td>
+</tr>
+<tr>
+<td>RestList</td>
+<td>Array</td>
+<td>休息打卡記錄</td>
+</tr>
+<tr>
+<td>OutOfOfficeList</td>
+<td>Array</td>
+<td>外出打卡記錄</td>
+</tr>
+<tr>
+<td>ExceptionList</td>
+<td>Array</td>
+<td>異常紀錄</td>
+</tr>
+<tr>
+<td>BiilingStatus</td>
+<td>Int</td>
+<td>0→未結算<br>1→已結算<br>2→已拋轉<br>3→結算中<br>4→離職結算</td>
+</tr>
 </tbody></table>
 
 <h3 id="changelog">Changelog</h3>
@@ -1382,7 +1436,7 @@ PT 1.6 更新<br>
 </tr>
 </thead><tbody>
 <tr>
-<td>Date</td>
+<td>date</td>
 <td>Date</td>
 <td>查詢日期</td>
 </tr>
